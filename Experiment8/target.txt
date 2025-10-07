@@ -1,0 +1,17 @@
+
+	LOAD t3, R0
+	LOAD t2, R1
+	DIV R1, R0
+	STORE R0, t2
+
+	LOAD -t2, R1
+	STORE R1, t2
+
+	OUT t2
+
+	LOAD t1, R0
+	LOAD t3, R1
+	ADD R1, R0
+	STORE R0, t4
+
+	OUT t4
